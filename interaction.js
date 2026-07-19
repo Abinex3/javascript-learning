@@ -21,8 +21,18 @@
 //     alert(0)
 // }
 
-const a = prompt("Enter First Number");
-const b = prompt("Enter Second Number");
-const tot = a + b;
-const result = (tot > 4) ? "Above" : "Below";
-alert(result)
+// const a = prompt("Enter First Number");
+// const b = prompt("Enter Second Number");
+// const tot = a + b;
+// const result = (tot > 4) ? "Above" : "Below";
+// alert(result)
+
+// const age = prompt("Enter your age");
+// if(age >= 14 || age <= 90){
+//     alert("You are eligible to access this page")
+// }
+
+const age = prompt("Enter your age");
+if(!(age >= 14 || age <= 90)){
+    alert("You are eligible to access this page")
+}
