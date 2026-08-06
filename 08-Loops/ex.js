@@ -133,14 +133,59 @@
 // 10
 
 //While method :
-let i = 10;
-while (i<=10){
+// let i = 10;
+// while (i<=10){
    
-   console.log(i);
-   i++
-}
+//    console.log(i);
+//    i++
+// }
 // /SyntaxError: Identifier 'i' has already been declared
 
+
+///////////////////////////////////////////////
+// For Loop : 
+
+// for (i = 1; i<=10; i++){
+//    console.log(i);
+// }
+
+//OUTPUT
+// S D:\JavaScript - Basics\08-Loops> node ex.js
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+// 10
+
+// let i = 10;
+// for(; i>=1; i--){
+//    console.log(i);
+// }
+
+//OUTPUT
+// PS D:\JavaScript - Basics\08-Loops> node ex.js
+// 10
+// 9
+// 8
+// 7
+// 6
+// 5
+// 4
+// 3
+// 2
+// 1
+
+let num = 0;
+for (let i = 1; i<=20; ){
+num = i % 2 === 0;
+   console.log(num);
+   i++
+}
 
  
 
