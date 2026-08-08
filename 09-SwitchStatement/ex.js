@@ -124,36 +124,78 @@
 // // PS D:\JavaScript - Basics\09-SwitchStatement> node ex.js
 // // Very Good
 
-let num1 = 20;
-let num2 = 4;
-let operator = "/";
-let total = 0;
-switch (operator) {
-    case "+" :
-        total = num1 + num2;
-        console.log(total);
-        break;
-    case "-" :
-        total = num1 - num2;
-        console.log(total);
-        break;
-    case "*" :
-        total = num1 * num2;
-        console.log(total);
-        break;
-    case "/" :
-        total = num1 / num2;
-        console.log(total);
-        break;
-    case "%" :
-        total = num1 % num2;
-        console.log(total);
-        break;
-    default:
-        console.log("Invalid operator");
-        break 
-}
+// let num1 = 20;
+// let num2 = 4;
+// let operator = "/";
+// let total = 0;
+// switch (operator) {
+//     case "+" :
+//         total = num1 + num2;
+//         console.log(total);
+//         break;
+//     case "-" :
+//         total = num1 - num2;
+//         console.log(total);
+//         break;
+//     case "*" :
+//         total = num1 * num2;
+//         console.log(total);
+//         break;
+//     case "/" :
+//         total = num1 / num2;
+//         console.log(total);
+//         break;
+//     case "%" :
+//         total = num1 % num2;
+//         console.log(total);
+//         break;
+//     default:
+//         console.log("Invalid operator");
+//         break 
+// }
 
 // OUTPUT :
 // PS D:\JavaScript - Basics\09-SwitchStatement> node ex.js
 // 5
+
+// let day = 6;
+// switch(day){
+//     case 1:
+//         case 2:
+//             case 3:
+//                 case 4:
+//                     case 5:
+//                         console.log("Weekday");
+//                         break;
+//                         case 6:
+//                             case 7:
+//                                 console.log("Weekend");
+//                                 break;
+//                                 default:
+//                                     console.log("Invalid Day");
+// }
+
+// // OUTPUT :
+// // PS D:\JavaScript - Basics\09-SwitchStatement> node ex.js
+// // Weekend
+
+let signal = "yellow";
+
+switch(signal) {
+    case "red":
+        console.log("Stop");
+        break;
+    case "yellow":
+        console.log("Get Ready");
+        break;
+    case "green":
+        console.log("Go");
+        break;
+    default:
+        console.log("Invalid Signal");
+        break;
+}
+
+// // OUTPUT :
+// // PS D:\JavaScript - Basics\09-SwitchStatement> node ex.js
+// // Get Ready
