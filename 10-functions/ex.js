@@ -4,3 +4,9 @@ function greetings() {
 
 greetings();
 greetings();
+
+function showMessage(from, text = "Hello") {
+    console.log(from + ":" + text);
+}
+
+showMessage("Abhi", null)
